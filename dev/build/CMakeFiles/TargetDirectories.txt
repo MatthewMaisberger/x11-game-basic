@@ -1,0 +1,4 @@
+/home/char/cpp/x11game/dev/build/CMakeFiles/gamelibs.dir
+/home/char/cpp/x11game/dev/build/CMakeFiles/x11game.dir
+/home/char/cpp/x11game/dev/build/CMakeFiles/edit_cache.dir
+/home/char/cpp/x11game/dev/build/CMakeFiles/rebuild_cache.dir
