@@ -97,10 +97,24 @@ CMakeFiles/gamelibs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamelibs.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/cpp/x11game/dev/main.cpp -o CMakeFiles/gamelibs.dir/main.cpp.s
 
+CMakeFiles/gamelibs.dir/src/Game.cpp.o: CMakeFiles/gamelibs.dir/flags.make
+CMakeFiles/gamelibs.dir/src/Game.cpp.o: /home/char/cpp/x11game/dev/src/Game.cpp
+CMakeFiles/gamelibs.dir/src/Game.cpp.o: CMakeFiles/gamelibs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/char/cpp/x11game/dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gamelibs.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gamelibs.dir/src/Game.cpp.o -MF CMakeFiles/gamelibs.dir/src/Game.cpp.o.d -o CMakeFiles/gamelibs.dir/src/Game.cpp.o -c /home/char/cpp/x11game/dev/src/Game.cpp
+
+CMakeFiles/gamelibs.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gamelibs.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/char/cpp/x11game/dev/src/Game.cpp > CMakeFiles/gamelibs.dir/src/Game.cpp.i
+
+CMakeFiles/gamelibs.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gamelibs.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/cpp/x11game/dev/src/Game.cpp -o CMakeFiles/gamelibs.dir/src/Game.cpp.s
+
 CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o: CMakeFiles/gamelibs.dir/flags.make
 CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o: /home/char/cpp/x11game/dev/src/GameDisplay.cpp
 CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o: CMakeFiles/gamelibs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/char/cpp/x11game/dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/char/cpp/x11game/dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o -MF CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o.d -o CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o -c /home/char/cpp/x11game/dev/src/GameDisplay.cpp
 
 CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.i: cmake_force
@@ -115,6 +129,7 @@ CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.s: cmake_force
 gamelibs_OBJECTS = \
 "CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" \
 "CMakeFiles/gamelibs.dir/main.cpp.o" \
+"CMakeFiles/gamelibs.dir/src/Game.cpp.o" \
 "CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o"
 
 # External object files for target gamelibs
@@ -122,10 +137,11 @@ gamelibs_EXTERNAL_OBJECTS =
 
 libgamelibs.a: CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 libgamelibs.a: CMakeFiles/gamelibs.dir/main.cpp.o
+libgamelibs.a: CMakeFiles/gamelibs.dir/src/Game.cpp.o
 libgamelibs.a: CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o
 libgamelibs.a: CMakeFiles/gamelibs.dir/build.make
 libgamelibs.a: CMakeFiles/gamelibs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/char/cpp/x11game/dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgamelibs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/char/cpp/x11game/dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libgamelibs.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gamelibs.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gamelibs.dir/link.txt --verbose=$(VERBOSE)
 

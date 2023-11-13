@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/char/cpp/x11game/dev/build/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" "CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" "gcc" "CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d"
   "/home/char/cpp/x11game/dev/main.cpp" "CMakeFiles/gamelibs.dir/main.cpp.o" "gcc" "CMakeFiles/gamelibs.dir/main.cpp.o.d"
+  "/home/char/cpp/x11game/dev/src/Game.cpp" "CMakeFiles/gamelibs.dir/src/Game.cpp.o" "gcc" "CMakeFiles/gamelibs.dir/src/Game.cpp.o.d"
   "/home/char/cpp/x11game/dev/src/GameDisplay.cpp" "CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o" "gcc" "CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o.d"
   )
 

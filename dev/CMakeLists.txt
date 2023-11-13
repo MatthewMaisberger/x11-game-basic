@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
 
-project(x11game)
+project(
+	x11game
+	LANGUAGES CXX
+	)
 
 find_package(X11 REQUIRED)
 

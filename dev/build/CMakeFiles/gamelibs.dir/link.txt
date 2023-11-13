@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgamelibs.a CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/gamelibs.dir/main.cpp.o CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o
+/usr/bin/ar qc libgamelibs.a CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/gamelibs.dir/main.cpp.o CMakeFiles/gamelibs.dir/src/Game.cpp.o CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o
 /usr/bin/ranlib libgamelibs.a

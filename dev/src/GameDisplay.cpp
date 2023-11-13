@@ -1,5 +1,5 @@
-#include <stdexcept>
 #include "GameDisplay.hpp"
+#include <stdexcept>
 
 GameDisplay::GameDisplay()
 {

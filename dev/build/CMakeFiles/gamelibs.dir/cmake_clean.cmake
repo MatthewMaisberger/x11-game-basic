@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gamelibs.dir/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d"
   "CMakeFiles/gamelibs.dir/main.cpp.o"
   "CMakeFiles/gamelibs.dir/main.cpp.o.d"
+  "CMakeFiles/gamelibs.dir/src/Game.cpp.o"
+  "CMakeFiles/gamelibs.dir/src/Game.cpp.o.d"
   "CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o"
   "CMakeFiles/gamelibs.dir/src/GameDisplay.cpp.o.d"
   "libgamelibs.a"
