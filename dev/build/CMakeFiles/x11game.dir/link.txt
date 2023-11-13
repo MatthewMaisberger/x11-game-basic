@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/x11game.dir/main.cpp.o -o x11game  libgamelibs.a /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 

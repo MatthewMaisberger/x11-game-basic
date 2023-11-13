@@ -1,2 +1,5 @@
 # Ignore these directories
 /dev/build
+
+# Ignore all files extensions of type
+*.swp
