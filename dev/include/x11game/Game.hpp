@@ -11,6 +11,10 @@ private:
 	GameDisplay m_gamedisplay;
 	XEvent m_event;
 	bool m_is_running {true};
+	int m_x {10};
+	int m_y {10};
+	int m_vx {4};
+	int m_vy {4};
 
 	bool getEvent();
 	void handleEvent();

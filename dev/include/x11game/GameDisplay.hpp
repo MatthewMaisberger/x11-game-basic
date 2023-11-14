@@ -7,6 +7,9 @@ public:
 	~GameDisplay();
 	
 	Display* getDisplay();
+	Window getWindow();
+	void drawRect(unsigned long color, int x, int y, int width, int height);
+	void redraw();
 
 private:
 	Display* m_display;
